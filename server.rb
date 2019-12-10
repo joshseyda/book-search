@@ -19,7 +19,3 @@ post '/' do
 	erb :result
 end
  
-# post '/' do
-#     @book = GoogleBooks.search(params, :filter => 'free-ebooks')
-# 	erb :result
-# end
