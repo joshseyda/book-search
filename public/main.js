@@ -1,3 +1,3 @@
-var elem = document.querySelector('.tap-target');
-var instance = M.TapTarget.init(elem);
+let elem = document.querySelector('.tap-target');
+let instance = M.TapTarget.init(elem);
 instance.addEventListener("click", instance.open());

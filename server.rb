@@ -6,7 +6,7 @@ require "googlebooks"
 get '/' do
     erb :search
 end
-# this  works...dont break it!!!
+
 post '/' do
     @book = GoogleBooks.search(params[:query]).first
     @title = @book.title
